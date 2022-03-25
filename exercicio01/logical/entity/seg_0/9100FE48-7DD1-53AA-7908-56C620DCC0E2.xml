@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9100FE48-7DD1-53AA-7908-56C620DCC0E2" name="CERTIFICACOES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:35:01 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_certificacao" id="44764E99-6D61-AC1B-8DDC-0CCE1962F3F2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:35:19 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="8361631D-351D-2F9E-6216-8B82E72F6E1B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:35:43 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEDA1CE9-4266-DD76-42BC-7490B6E23CF6" name="CERTIFICACOES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:35:36 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44764E99-6D61-AC1B-8DDC-0CCE1962F3F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9735AF8-AAAA-109B-A461-A7B7755E81FB" name="INSTRUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:46:20 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_instrutor" id="8AF67697-BE8C-DEFA-0E69-24E65B91DA4E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:46:32 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="9B351D23-4B8B-F2A1-EEED-8A9F1237B4BD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:05 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="EA739BF7-7FD0-AB4D-344E-DD5FB9037376">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 14:27:38 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="CC37AA60-7FDE-C0B3-AB03-FD62D89A3682">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:17 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C017F2C0-EB80-4C86-2575-3421A79D1136">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:47:26 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4214F660-DA21-1F2A-6D9D-7BB0B8DBB82D" name="INSTRUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-03-25 13:46:33 UTC</createdTime>
+<ownerDesignName>exercicio01</ownerDesignName>
+<engineerTo>
+<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AF67697-BE8C-DEFA-0E69-24E65B91DA4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
