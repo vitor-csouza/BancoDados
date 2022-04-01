@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBC76C93-C42E-A857-B92A-7DF12BF45DD7" name="PERIODOS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2BBC68F-3726-20D5-30D5-A230889EA2EC" name="MATRICULAS">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:00:28 UTC</createdTime>
+<createdTime>2022-04-01 14:17:19 UTC</createdTime>
 <ownerDesignName>exercicio01</ownerDesignName>
 <engineerTo>
 <item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
@@ -15,39 +15,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_periodo" id="53491C0E-71E5-F9D3-E6E0-A15A78BE71E5">
+<Attribute name="cod_aluno" id="EE1BAE13-80C2-BF98-7B6F-32154D2493A2">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:00:37 UTC</createdTime>
+<createdTime>2022-04-01 14:18:24 UTC</createdTime>
+<generatorID>339D58DD-CB77-CE9B-1DF0-EA516EF9EDB7</generatorID>
 <ownerDesignName>exercicio01</ownerDesignName>
 <engineerTo>
 <item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
 </engineerTo>
+<referedAttribute>9EEB2D75-D64A-804F-1D5F-7EB7391EF912</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descricao" id="CA76BCCD-3216-765E-FFA0-068E1716B9AF">
+<Attribute name="cod_curso" id="9936013D-15A8-DF43-479A-0F22A17226D1">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:02:54 UTC</createdTime>
+<createdTime>2022-04-01 14:19:56 UTC</createdTime>
+<generatorID>641E0A3F-7920-B139-FFF0-81294BC3CB40</generatorID>
 <ownerDesignName>exercicio01</ownerDesignName>
 <engineerTo>
 <item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
 </engineerTo>
+<referedAttribute>DB3CA55B-33A8-7EDC-31B2-BBA366A67D74</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="11287480-2D16-FF11-DE0A-EE76057EC1B2" name="PERIODOS PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2022-03-25 14:00:47 UTC</createdTime>
-<ownerDesignName>exercicio01</ownerDesignName>
-<engineerTo>
-<item key="E624C5A2-9CC1-5FD8-C404-C3ACE8BD169E" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>53491C0E-71E5-F9D3-E6E0-A15A78BE71E5</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

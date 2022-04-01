@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_instrutor" id="8AF67697-BE8C-DEFA-0E69-24E65B91DA4E">
+<Attribute name="cod_instrutor" id="8AF67697-BE8C-DEFA-0E69-24E65B91DA4E">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2022-03-25 13:46:32 UTC</createdTime>
 <ownerDesignName>exercicio01</ownerDesignName>
