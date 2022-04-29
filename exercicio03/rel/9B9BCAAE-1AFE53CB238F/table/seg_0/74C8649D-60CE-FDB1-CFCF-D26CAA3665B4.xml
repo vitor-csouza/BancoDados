@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74C8649D-60CE-FDB1-CFCF-D26CAA3665B4" name="CONTAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:14:08 UTC</createdTime>
+<generatorID>E00F155A-5453-0A9E-35DD-93A5A4AB28FA</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_conta" id="CE9AA1FE-FF68-DD88-7862-28D706496D9C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:14:08 UTC</createdTime>
+<generatorID>1370A719-E732-9310-8090-1EF304BBA276</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_abertura" id="2DF4C6DB-C7A7-2AB7-BDF3-A3ACB72B13E4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:14:08 UTC</createdTime>
+<generatorID>BBB748CD-C55A-3ED5-CF89-2ED2C906B612</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_banco3" id="B5B64E61-BA70-2CE1-0471-79BCB540BEA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:25:59 UTC</createdTime>
+<generatorID>7DCEA23F-E904-09FE-2E29-09A68DFDD3AF</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B5B6596-2EA8-8368-94D3-CAD48B20F3F1" referredColumn="C0A777E6-F885-79E1-66DA-E97F97698BDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4E0FE5C-5A58-A93B-63EF-44392F8ED73B" name="CONTAS_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:14:08 UTC</createdTime>
+<generatorID>53F6F32A-9CA9-8A88-3953-7AE21CF932D1</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE9AA1FE-FF68-DD88-7862-28D706496D9C"/>
+<colUsage columnID="B5B64E61-BA70-2CE1-0471-79BCB540BEA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="220933CF-E46A-293D-B4CC-A3CC97C23710" name="CONTAS_BANCOS_FKv3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:25:59 UTC</createdTime>
+<generatorID>F0F40AF3-1904-0DCE-9362-6B65D0AA2246</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B64E61-BA70-2CE1-0471-79BCB540BEA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

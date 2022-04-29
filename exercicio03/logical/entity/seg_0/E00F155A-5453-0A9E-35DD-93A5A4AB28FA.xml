@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E00F155A-5453-0A9E-35DD-93A5A4AB28FA" name="CONTAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:09:44 UTC</createdTime>
+<ownerDesignName>exercicio03</ownerDesignName>
+<engineerTo>
+<item key="9B9BCAAE-CD72-B6E6-4B00-1AFE53CB238F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_conta" id="1370A719-E732-9310-8090-1EF304BBA276">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:09:50 UTC</createdTime>
+<ownerDesignName>exercicio03</ownerDesignName>
+<engineerTo>
+<item key="9B9BCAAE-CD72-B6E6-4B00-1AFE53CB238F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_abertura" id="BBB748CD-C55A-3ED5-CF89-2ED2C906B612">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:10:14 UTC</createdTime>
+<ownerDesignName>exercicio03</ownerDesignName>
+<engineerTo>
+<item key="9B9BCAAE-CD72-B6E6-4B00-1AFE53CB238F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_banco" id="7DCEA23F-E904-09FE-2E29-09A68DFDD3AF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:25:28 UTC</createdTime>
+<generatorID>F0F40AF3-1904-0DCE-9362-6B65D0AA2246</generatorID>
+<ownerDesignName>exercicio03</ownerDesignName>
+<engineerTo>
+<item key="9B9BCAAE-CD72-B6E6-4B00-1AFE53CB238F" value="true"/>
+</engineerTo>
+<referedAttribute>0EA7D82C-A447-353C-1BD8-449FBE5CD8B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53F6F32A-9CA9-8A88-3953-7AE21CF932D1" name="CONTAS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-29 14:10:11 UTC</createdTime>
+<ownerDesignName>exercicio03</ownerDesignName>
+<engineerTo>
+<item key="9B9BCAAE-CD72-B6E6-4B00-1AFE53CB238F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1370A719-E732-9310-8090-1EF304BBA276</attributeRef>
+<attributeRef>7DCEA23F-E904-09FE-2E29-09A68DFDD3AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
