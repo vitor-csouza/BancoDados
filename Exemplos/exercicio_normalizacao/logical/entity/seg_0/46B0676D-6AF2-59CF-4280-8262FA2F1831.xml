@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46B0676D-6AF2-59CF-4280-8262FA2F1831" name="INSTRUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:11:29 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_instrutor" id="6359D799-DB0A-8EA0-556C-4087DB93B5B2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:11:51 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_instrutor" id="E74A8D48-3D1C-4253-2F4F-FC06BD424B4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:12:11 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="077098BA-A162-9869-C1B0-1E15B923FCA4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:37:41 UTC</createdTime>
+<generatorID>1EFD1795-7EDF-F071-E3FD-C9030D148B7D</generatorID>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<referedAttribute>56989D7E-0826-87AA-8016-F7AB41F9C4EF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83ECD5B8-D879-6E78-8A25-725487CB386D" name="INSTRUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:12:02 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6359D799-DB0A-8EA0-556C-4087DB93B5B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

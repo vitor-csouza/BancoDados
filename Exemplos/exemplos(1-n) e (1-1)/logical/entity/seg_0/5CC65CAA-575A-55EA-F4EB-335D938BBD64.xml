@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CC65CAA-575A-55EA-F4EB-335D938BBD64" name="GERENTES ">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:26:25 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_ger" id="3A486A7E-8C17-122A-5E2F-AC466393C964">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:26:25 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2574F63B-7F7D-4549-89AE-FDE7CA03A10F">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:26:25 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_depto" id="797432CE-D700-24CD-2953-B8426C910F4E">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:27:22 UTC</createdTime>
+<generatorID>8089D650-7245-2A42-28AB-1B161CADE243</generatorID>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<referedAttribute>59320EAA-A4C4-42AA-A112-0B71E7CB1D22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB0317DD-665A-C711-03F1-EF9AA3953C49" name="EMPREGADOS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:26:25 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A486A7E-8C17-122A-5E2F-AC466393C964</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

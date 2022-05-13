@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B98ACFB-747F-3E63-689A-CD5A5B599AB7" name="DEPARTAMENTOS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:25:36 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_depto" id="E5D00A68-67C3-8C78-0DF7-E83059AA3367">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:25:42 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="90ED4157-D546-21C8-EC74-FAC2A9626F61">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:25:55 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_ger" id="84CBD7D4-160B-4641-A47F-88453A2A4587">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:27:10 UTC</createdTime>
+<generatorID>03E1BD72-AA64-67B1-DB30-0CDCCB4155D6</generatorID>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<referedAttribute>5A96B681-3557-4070-FDC3-660F6EF31F12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="11367D73-ADA6-DA3C-3021-DA53FFCD374D" name="DEPARTAMENTOS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:25:53 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<engineerTo>
+<item key="81665B9B-60CE-4EC0-605C-308235005201" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5D00A68-67C3-8C78-0DF7-E83059AA3367</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

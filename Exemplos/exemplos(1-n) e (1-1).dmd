@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exemplos(1-n) e (1-1)" id="1D90BB3C-C381-4389-FAC8-87ECE0EF0FCD" version="3.5">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:21:41 UTC</createdTime>
+<ownerDesignName>exemplos(1-n) e (1-1)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1D90BB3C-C381-4389-FAC8-87ECE0EF0FCD</designId>
+</OSDM_Design>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E137CA21-44CB-E47D-D21B-D4EC3485A650" name="CURSOS_INSTRUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:33:47 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="B5B057CA-E31D-D9DC-3D5C-57EEC526D663">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:34:12 UTC</createdTime>
+<generatorID>6A2B8B83-9DAC-D958-0B80-3672F3540E0F</generatorID>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<referedAttribute>41603518-9343-D592-B011-C4BECC418C8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_instrutor" id="8D7A7E19-DFE3-8297-3BFB-7D8CA74F2DC4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:34:15 UTC</createdTime>
+<generatorID>A2B6320A-77A2-FC4B-3D63-8A0477CE545F</generatorID>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<referedAttribute>6359D799-DB0A-8EA0-556C-4087DB93B5B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68EB7013-C6BA-77D4-245D-0FDB557F53F2" name="CURSOS_INSTRUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-05-13 14:34:19 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D7A7E19-DFE3-8297-3BFB-7D8CA74F2DC4</attributeRef>
+<attributeRef>B5B057CA-E31D-D9DC-3D5C-57EEC526D663</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
